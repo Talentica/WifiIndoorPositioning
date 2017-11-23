@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Wifi Indoor Positioning</string>
+    <string name="new_project">Create New Project</string>
+    <string name="project_detail">Project</string>
+    <string name="add_access_point">Add an Access Point</string>
+    <string name="add_reference_point">Add a Reference Point</string>
+    <string name="action_settings">Settings</string>
+    <string name="locate_me">Locate Me</string>
+
+    <string-array name="algoNames">
+        <item name="1">K Nearest Neighbor (KNN) Algorithm</item>
+        <item name="2">Weighted K Nearest Neighbor (WKNN) Algorithm</item>
+        <item name="3">Probabilistic Maximum A Posteriori (MAP) Algorithm</item>
+        <item name="4">Probabilistic Minimum Mean Square Error (MMSE) Algorithm</item>
+    </string-array>
+    <string-array name="algoValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+    </string-array>
+</resources>

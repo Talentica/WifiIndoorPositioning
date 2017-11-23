@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talentica.wifiindoorpositioning.wifiindoorpositioning">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.NewProjectActivity"
+            android:label="@string/new_project" />
+        <activity
+            android:name=".ui.ProjectDetailActivity"
+            android:label="@string/project_detail" />
+        <activity
+            android:name=".ui.AddOrEditAccessPointActivity"
+            android:label="@string/add_access_point" />
+        <activity
+            android:name=".ui.SearchWifiAccessPointActivity"
+            android:label="@string/add_access_point" />
+        <activity
+            android:name=".ui.AddOrEditReferencePointActivity"
+            android:label="@string/add_reference_point" />
+        <activity
+            android:name=".ui.LocateMeActivity"
+            android:label="@string/locate_me" />
+        <activity android:name=".ui.UnifiedNavigationActivity"
+            android:label="Settings" />
+
+        <service android:name=".core.WifiService" />
+
+    </application>
+
+</manifest>

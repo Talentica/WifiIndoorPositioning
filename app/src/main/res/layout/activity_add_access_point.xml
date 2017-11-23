@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/bn_ap_scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select via Scan" />
+
+            <EditText
+                android:id="@+id/et_ap_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="SSID or Name"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="50" />
+
+            <EditText
+                android:id="@+id/et_ap_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Description"
+                android:inputType="text"
+                android:lines="3"
+                android:maxLength="250" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_ap_x"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="x (decimal)"
+                    android:inputType="numberDecimal"
+                    android:lines="1"
+                    android:maxLength="10" />
+
+                <EditText
+                    android:id="@+id/et_ap_y"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="y (decimal)"
+                    android:inputType="numberDecimal"
+                    android:lines="1"
+                    android:maxLength="10" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_ap_mac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="MAC (optional)"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLength="50" />
+
+            <Button
+                android:id="@+id/bn_ap_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Create" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

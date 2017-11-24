@@ -1,4 +1,4 @@
-# WifiIndoorPositioning [![Build Status](https://travis-ci.org/Talentica/WifiIndoorPositioning.svg?branch=master)](https://travis-ci.org/Talentica/WifiIndoorPositioning) [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub version](https://badge.fury.io/gh/Talentica%2FWifiIndoorPositioning.svg)](https://badge.fury.io/gh/Talentica%2FWifiIndoorPositioning)
+# Wifi Indoor Positioning [![Build Status](https://travis-ci.org/Talentica/WifiIndoorPositioning.svg?branch=master)](https://travis-ci.org/Talentica/WifiIndoorPositioning) [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html) [![GitHub version](https://badge.fury.io/gh/Talentica%2FWifiIndoorPositioning.svg)](https://badge.fury.io/gh/Talentica%2FWifiIndoorPositioning)
 
 <img src="/media/image-WiFi.jpg" align="middle" />&nbsp;
 
@@ -6,11 +6,20 @@ This app uses Fingerprinting method for evaluating current location of the devic
 
 <img src="/media/details.jpg" />&nbsp;
 
-This App requires the Wi-Fi and location services to store the RSS values of the access points and reference points.
+This App requires the Wi-Fi and location services to store the RSS values of the access points and reference points. The functionalities offered are:
 
 
+## 1. Adding an Access Point with types Algorithm supported
 
+<img src="/media/AlgoAndCreateAccessPoint.gif" />&nbsp;
 
+## 2. Adding a Reference Point
+
+<img src="/media/AddReferencePoint.gif" />&nbsp;
+
+## 3. Location user's or device's Location
+
+<img src="/media/EvaluateTheLocation.gif" />&nbsp;
 
 
 ## Minimum Requirements

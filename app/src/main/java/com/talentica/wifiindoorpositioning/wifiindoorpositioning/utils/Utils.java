@@ -58,7 +58,7 @@ public class Utils {
         Double latValue = Double.valueOf(split[0]);
         Double lonValue = Double.valueOf(split[1]);
         String latFormat = formatter.format(latValue);
-        String lonFormat = formatter.format(latValue);
+        String lonFormat = formatter.format(lonValue);
         return latFormat + ", " + lonFormat;
     }
 

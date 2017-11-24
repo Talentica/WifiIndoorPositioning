@@ -1,0 +1,26 @@
+language: android
+jdk: oraclejdk8
+env:
+  global:
+    - ANDROID_TARGET=android-26
+    - ANDROID_ABI=armeabi-v7a
+android:
+  components:
+  - tools
+  - platform-tools
+  - build-tools-26.0.2
+  - tools
+  - 'android-26'
+  - extra-android-support
+  - extra-google-google_play_services
+  - extra-android-m2repository
+  - extra-google-m2repository
+  - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+  licenses:
+  - 'android-sdk-preview-license-.+'
+  - 'android-sdk-license-.+'
+  - '.+'
+install: [
+  "echo yes | ${ANDROID_HOME}tools/bin/sdkmanager \"platforms;android-26\" --channel=3"]
+script:
+  - ./gradlew build

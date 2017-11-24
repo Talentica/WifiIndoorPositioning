@@ -6,21 +6,22 @@ This app uses Fingerprinting method for evaluating current location of the devic
 
 <img src="/media/details.jpg" />&nbsp;
 
-This App requires the Wi-Fi and location services to store the RSS values of the access points and reference points. The functionalities offered are:
+#### This App requires the Wi-Fi and location services to store the RSS values of the access points and reference points.
+
+The functionalities offered :octocat: :star2: are:
 
 
-## 1. Adding an Access Point with types Algorithm supported
+#### 1. Adding an Access Point with supported Algorithm types
 
 <img src="/media/AlgoAndCreateAccessPoint.gif" />&nbsp;
 
-## 2. Adding a Reference Point
+#### 2. Adding a Reference Point
 
 <img src="/media/AddReferencePoint.gif" />&nbsp;
 
-## 3. Location user's or device's Location
+#### 3. User's Location or Device's Location
 
 <img src="/media/EvaluateTheLocation.gif" />&nbsp;
-
 
 ## Minimum Requirements
 
